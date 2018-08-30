@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+/*
 import {createStackNavigator, createBottomTabNavigator} from 'react-navigation';
 import { VictoryChart, VictoryLine} from 'victory-line';
-import { Calendar} from 'reac-native-calendars';
-import {GymCalendar} from './Components/GymCalendar';
+import { Calendar} from 'react-native-calendars';
+*/
+import { GymCalendar } from './Components/GymCalendar';
 
 
-class Home extends Component{
+class MyHome extends Component{
   constructor(props){
     super(props);
   }
@@ -25,7 +27,7 @@ class Home extends Component{
 
 const RootStack = createBottomTabNavigator({
   Home: {
-    screen: Home
+    screen: MyHome
   },
   Calendar: {
     screen: GymCalendar

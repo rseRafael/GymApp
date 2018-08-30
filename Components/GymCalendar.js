@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { Calendar} from 'reac-native-calendars';
+import { Calendar} from 'react-native-calendars';
 
 
-class GymCalendar extends Component{
+export class GymCalendar extends Component{
     constructor(props){
         super(props);
     }
